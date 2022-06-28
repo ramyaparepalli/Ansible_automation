@@ -1,0 +1,9 @@
+---
+ - hosts: localhost
+   tasks:
+     - name: install apache
+       shell: sudo yum install httpd  -y
+     - name: start apache
+       shell: sudo systemctl start httpd
+     - name: enable apache
+       shell: sudo systemctl enable httpd

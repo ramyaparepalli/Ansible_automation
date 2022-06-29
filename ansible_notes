@@ -1,0 +1,20 @@
+what is ansible: Ansible® is an open sourceIT automation tool that automates provisioning, configuration management, application deployment, orchestration, and many other manual IT processes.or
+
+                        Ansible refers to an open-source automation platform or tool that is useful for different IT tasks like configuration management, intra-service orchestration, application deployment, and provisioning. Automation is vital for managing complex IT environments and simplifying the complex tasks of the developers. Ansible is a top automation tool that helps in overcoming the challenges of automation and ensures better productivity gains.
+
+The automation engine of Ansible is supported by Red Hat and helps in saving time and enhancing productivity. Ansible offers scalability, reliability, and consistency in the IT infrastructure. With the use of Ansible, the configurations of networks, databases, storage, and firewalls can be easily automated. Ansible best practices help in ensuring the consistency of all the essential software packages for running an application. 
+
+
+what is hosts in ansible: In ansible, host files are those files that are used for storing information about remote nodes information, which we need to manage. This file can be placed anywhere but its location needs to be set up either in a configuration file or give on the command line. This is one of those important files without which you will be doing a lot of extra work to tackle it. Every time, ansible runs a playbook, it checks for the listed hosts in the host’s file and fetches the available information against those hosts, then use this information to make connection, login and execute tasks on remote hosts.
+
+what is tasks in ansible: A task is the smallest unit of action you can automate using an Ansible playbook. Playbooks typically contain a series of tasks that serve a goal, such as to set up a web server, or to deploy an application to remote environments.
+
+what is vars in ansible:Ansible uses variables to manage differences between systems. With Ansible, you can execute tasks and playbooks on multiple different systems with a single command. To represent the variations among those different systems, you can create variables with standard YAML syntax, including lists and dictionaries. You can define these variables in your playbooks, in your inventory, in re-usable files or roles, or at the command line. You can also create variables during a playbook run by registering the return value or values of a task as a new variable.
+
+what is a module in ansible: Modules (also referred to as “task plugins” or “library plugins”) are discrete units of code that can be used from the command line or in a playbook task. Ansible executes each module, usually on the remote managed node, and collects return values. In Ansible 2.10 and later, most modules are hosted in collections.
+
+
+how does ansible works: Ansible works by connecting the server of the user through the SSH keys and pushing the small programs out. With the use of modules, the playbooks help the ansible clients in performing all the specific tasks. The particular functions can include the service of restarting, installing packages, rebooting servers, and much more. With the use of Ansible, a lot of things can be performed.
+
+
+

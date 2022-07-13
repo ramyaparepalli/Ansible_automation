@@ -5,16 +5,16 @@
       cloudformation:
         stack_name: "ansible-cloudformation"
         state: "present"
-        region:
-        disable_rollback:
-        aws_access_key:
-        aws_secret_key:
+        region: "us-east-2"
+        disable_rollback: true
+        aws_access_key: AKIAT7UHUGR6E5VRXFIL
+        aws_secret_key: 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
         template: "lampstack.yaml"
         template_parameters:
-          DBUser:
-          DBPassword:
+          DBUser: "jmartin"
+          DBPassword: "passw0rd"
           InstanceType: "t2.micro"
-          DBRootPassword: "password"
+          DBRootPassword: "passw0rd"
         tags: 
          Stack: "ansible-cloudformation"
       register: cfn_output 
